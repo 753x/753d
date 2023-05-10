@@ -1,0 +1,255 @@
+﻿<!doctype html>
+
+<html lang="ko">
+<head>
+<title>yor</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/yor.css">
+<style>
+	body {font:14px "KOTRA";}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="js/yor.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+		<ul class="top">
+				<li><a href="#">매장찾기</a> | </li>
+				<li><a href="#">고객센터</a> | </li>
+				<li><a href="#">가입하기</a> | </li>
+				<li><a href="#">로그인</a></li>
+		</ul>
+		<div class="bar">
+			<h1 class="mainlogo"><img src="images/logo.png" alt="" /></h1>
+				<ul class="mainbar">
+					<li><a href="#" class="nav" >Men</a>
+						<div>
+							<div class="nav-sh">
+								<h3>신발</h3>
+								<ul>
+									<li><a href="#">신발 전체</a></li>
+									<li><a href="#">라이프스타일</a></li>
+									<li><a href="#">러닝</a></li>
+									<li><a href="#">워킹</a></li>
+									<li><a href="#">트레이닝&amp;짐</a></li>
+									<li><a href="#">농구</a></li>
+									<li><a href="#">축구</a></li>
+									<li><a href="#">골프</a></li>
+									<li><a href="#">테니스</a></li>
+									<li><a href="#">샌들 &amp; 슬리퍼</a></li>
+								</ul>
+							</div>
+							<div class="nav-sh">
+								<h3>의류</h3>
+									<ul>
+										<li><a href="#">의류 전체</a></li>
+										<li><a href="#">탑 &amp; 티셔츠</a></li>
+										<li><a href="#">팬츠 &amp; 타이츠</a></li>
+										<li><a href="#">후디 &amp; 크루</a></li>
+										<li><a href="#">재킷 &amp; 베스트</a></li>
+										<li><a href="#">쇼츠</a></li>
+										<li><a href="#">요르 프로</a></li>
+										<li><a href="#">양말</a></li>
+										<li><a href="#">셋업</a></li>
+									</ul>
+							</div>
+							<div class="nav-sh">
+								<h3>용품</h3>
+									<ul>
+										<li><a href="#">모자 &amp; 헤드밴드</a></li>
+										<li><a href="#">가방</a></li>
+										<li><a href="#">애플워치</a></li>
+									</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="#" class="nav">Women</a></li>
+					<li><a href="#" class="nav">Kids</a></li>
+				</ul>
+				<form action="" class="sform">
+					<fieldset>
+						<legend class="hdd">통합검색</legend>
+						<label for="sbox" class="hdd">검색할 단어를 입력</label>
+						<input type="text" id="sbox" class="tbox" name="" size="10" />
+						<input type="image" class="zoom" src="images/zoom.png" alt="찾기버튼" />
+					</fieldset>
+				</form>
+				<ul class="sidebar">
+					<li><a href="#"><img src="images/bookmark.png" /></a></li>
+					<li><a href="#"><img src="images/shopping.png" /></a></li>
+				</ul>
+		</div>
+				<div class="notice">
+					<h3 class="no">반품 환불 및 지연 안내</h3>
+					<a href="#"><p>자세히보기</p></a>
+				</div>
+				
+				<div class="modal">
+					<div class="modal-content">
+						<p>현재 대기가 많아 지연이 되고 있습니다. 불편을 끼쳐드려 죄송합니다.</p>
+					
+						<button class="clo">x</button>
+					</div>
+				</div>
+			
+		</div> <!-- header 끝 -->
+		<div id="container">
+		
+			<div class="content">
+				<div class="popup-wrap" id="popup">
+					<div class="popup">
+						<div class="popup-head">
+							<span class="head-title">새학기 이벤트</span>
+						</div>
+						<div class="popup-body">
+							<div class="body-content">
+								<div class="body-titlebox">
+									<h1>새학기를 위한 특별한 요르</h1>
+								</div>
+								<div class="body-contentbox">
+									<p>2월 12일(일)부터 3월 30일(목)까지 특별한 새학기 이벤트가 <br> 시작됩니다. <br> 30%부터 최대 50%까지 쏟아지는 특별한 할인 <br> 에어맥스 with 뉴진스,지올팍으로 시대를 초월한 에어맥스 <br> 스타일과 새로운 maxxed out팩 까지 만나보세요<br><br> <br><br><br><br><br><br><br><br><br><br>재고가 없을 경우 조기종료 될 수 있습니다.</p>
+								</div>
+							</div>
+						</div>
+						<div class="popup-foot">
+							<span class="pop-btn confirm" id="confirm">자세히 보기</span>
+							<span class="pop-btn close" id="close">창닫기</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div id="one">
+				<a href="#"><img src="images/bus.png" class="bus" alt="" /></a>
+				<h3 class="date">2월 12일(일) - 3월 1일(수)</h3>
+				<h1>새로운 학기의 시작</h1>
+				<p class="col">설레는 마음으로 새 학기를 준비하는 모든 이를 위한 컬렉션. <br>
+						요르 멤버들을 위한 최대 30% 할인 혜택을 지금 만나보세요.</p>
+				<a href="#" class="circle"><p>컬렉션 구매하기</p></a>	
+			</div>
+			
+		<section id="sec">
+			<div class="two">
+			<img src="images/adult.png" alt="" />
+					<h3 class="sky">성인</h3>
+					<article>캠퍼스 스타일과 함께 새로운 시작을 <br>준비해 보세요.</article>
+			</div>
+			<div class="tw">
+				<img src="images/kids.png" alt="" />
+					<h3 class="sky">키즈</h3>
+					<article>아이들의 새 출발을 응원해보세요.</article>
+					</div>
+				<div class="t">
+				<img src="images/bag.png" alt="" />
+					<h3  class="sky">가방과 액세서리</h3>
+					<article>포인트를 주는 제품으로 새 학기 스타일을 <br> 완성해 보세요.</article>
+				</div>
+			</section>
+			
+			
+			<div id="video">
+				<video width="100%" height="800px" src="images/nike.mp4" poster="images/tumb.jpg" controls ></video>
+				<h2>YOR AIR MAX</h2>
+				<p class="air">요르 에어맥스. 수많은 실패, 그리고 무한한 가능성. <br> 시대를 초월한 에어맥스 스타일과 새로운 MAXXED OUT 팩을 만나보세요.</p>
+				<a href="#" class="circle"><p>자세히 보기</p></a>
+			</div>
+			
+			<div id="three">
+				<a href="#"><img src="images/workout.png" class="work" alt="" /></a>
+				<h1>모든 움직임을 위한 트레이닝 컬렉션</h1>
+				<p class="out">웨이트 트레이닝, 러닝 어떤 운동을 하든 땀 걱정 없는 통기성으로 최고의 퍼포먼스를 발휘해 보세요.</p>
+				<a href="#" class="circle"><p>구매하기</p></a>	
+			</div>
+			
+			<section id="four">
+				<h3>Trending Now</h3>
+					<div class="fou">
+					<img src="images/campus.png" />
+						<p>캠퍼스 팩</p>
+						<article><a href="#" class="circle">구매하기</a></article>
+					</div>
+						
+					<div class="fo">
+					<img src="images/sister.png" />
+						<p>시스터후드 팩</p>
+						<article><a href="#" class="circle">구매하기</a></article>
+					</div>
+			</section>
+			
+			<section id="five">
+				<h3>Featured Shose</h3>
+				<div class="fiv">
+				<img src="images/shose1.png" alt="" />
+					<p class="sky">남성신발</p>
+					<article>119,000원</article>
+				</div>
+				<div class="fi">
+				<img src="images/shose2.png" alt="" />
+					<p  class="sky">남성신발</p>
+					<article>149,000원</article>
+				</div>
+				<div class="f">
+				<img src="images/shose3.png" alt="" />
+					<p  class="sky">남성 로드 러닝화</p>
+					<article>69,000원</article>
+				</div>
+			</section>
+			
+			<div id="logo">
+			<img src="images/logo.png" alt="" />
+			</div>
+		</div> <!-- container 끝 -->
+		
+		<div id="footer">
+			<div class="icon">
+				<ul>
+					<li><a href="https://www.instagram.com/"><img src="images/insta.png" /></a></li>
+					<li><a href="https://www.facebook.com/"><img src="images/facebook.png" /></a></li>
+					<li><a href="https://www.youtube.com/"><img src="images/youtube.png" /></a></li>
+				</ul>
+			</div>
+			<div class="foot">
+				<ul class="foo">
+					<li><a href="#">새로운 소식</a></li>
+					<li><a href="#">멤버 가입</a></li>
+					<li><a href="#">매장 안내</a></li>
+					<li><a href="#">요르 저널</a></li>
+				</ul>
+				
+				<ul class="help">
+					<li>도움말</li>
+					<li><a href="#" class="gray">로그인 안내</a></li>
+					<li><a href="#" class="gray">주문배송조회</a></li>
+					<li><a href="#" class="gray">반품 정책</a></li>
+					<li><a href="#" class="gray">결제 방법</a></li>
+					<li><a href="#" class="gray">공지사항</a></li>
+					<li><a href="#" class="gray">문의하기</a></li>
+				</ul>
+				
+				<ul class="about">
+					<li>ABOUT YOR</li>
+					<li><a href="#" class="gray">소식</a></li>
+					<li><a href="#" class="gray">채용</a></li>
+					<li><a href="#" class="gray">투자자</a></li>
+					<li><a href="#" class="gray">지속가능성</a></li>
+				</ul>
+				
+				<div class="last">
+					<span class="la">&copy;  2023 yor, lnc.All Rights Reserved</span>
+					<ul class="st">
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>					
+					</ul>
+				</div>
+				<address>(유)요르코리아 대표 Jeon Yo Han, 전요한 | 수원 매산로1가 수원아카데미 학원 4층 | <br> 통신판매업신고번호 2023-수원매산로-04432 | 등록번호 220-88-456973 <a href="#" class="under">사업자 정보 확인</a> <br>
+					고객센터 전화 문의 <a href="#" class="under"> 080-033-6767 </a> FAX 031-254-0384 | 이메일 <a href="#" class="under"> dhsmfqkscks@naver.com </a> | 호스팅서비스사업자 (유)요르코리아
+				  </address>
+			</div>
+		</div> <!-- footer 끝 -->
+	</div>
+	
+</body>
+</html>
